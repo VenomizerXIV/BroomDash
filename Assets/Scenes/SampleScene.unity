@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   target: {fileID: 1401059591}
-  verticalSmoothing: 1
+  verticalSmoothing: 0.217
   xLead: 4.96
 --- !u!1 &611173667
 GameObject:
@@ -2134,7 +2134,7 @@ MonoBehaviour:
   - {fileID: 225381942312784250, guid: 309f282fab240a74fa94e6fbd79d8619, type: 3}
   - {fileID: 225381942312784250, guid: a8df252d9a853c54197f85c9e378f5c6, type: 3}
   airMinInterval: 2
-  airMaxInterval: 6
+  airMaxInterval: 3
   spawnAheadDistance: 22
   minY: -509.9
   maxY: -506
@@ -2144,7 +2144,7 @@ MonoBehaviour:
   - {fileID: 6876177794678553417, guid: 8475d0220120e6d46ab3651d7cb00cb2, type: 3}
   - {fileID: 6876177794678553417, guid: 46a00b0c6408f5b4d891c492d39fcccc, type: 3}
   groundMinInterval: 3
-  groundMaxInterval: 7
+  groundMaxInterval: 5
   groundY: -511
   groundSpawnAheadDistance: 22
   startDelay: 2
@@ -2336,7 +2336,7 @@ MonoBehaviour:
   fastLandForce: 12
   startSpeed: 5
   maxSpeed: 20
-  speedIncreaseRate: 0.12
+  speedIncreaseRate: 0.15
   maxBoostFuel: 100
   boostDrainRate: 25
   boostRechargeRate: 18
