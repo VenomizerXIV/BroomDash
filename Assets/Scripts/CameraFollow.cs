@@ -1,9 +1,6 @@
 using UnityEngine;
 
-/// <summary>
-/// Attach to: Main Camera
-/// Scrolls right with the player; smoothly tracks vertical position.
-/// </summary>
+
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;

@@ -7,7 +7,6 @@ public class PlayerAnimator : MonoBehaviour
     private Animator _anim;
     private PlayerHealth _health;
 
-    // Cache hash IDs — faster than passing strings every frame
     private static readonly int IsFlying = Animator.StringToHash("isFlying");
     private static readonly int HurtTrigger = Animator.StringToHash("Hurt");
     private static readonly int DieTrigger = Animator.StringToHash("Die");

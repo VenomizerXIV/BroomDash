@@ -1,10 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// Attach to: any GameObject inside the HUD Canvas (e.g., "BoostGauge").
-/// Reads fuel from JetpackController and drives the fill Image.
-/// </summary>
+
 public class BoostGaugeUI : MonoBehaviour
 {
     [Header("References")]

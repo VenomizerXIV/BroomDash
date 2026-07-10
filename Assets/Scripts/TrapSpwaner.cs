@@ -18,8 +18,7 @@ public class TrapSpawner : MonoBehaviour
     public float minY = -1.5f;
     public float maxY = 2.5f;
 
-    // ── GROUND TRAPS ─────────────────────────────────────────
-    [Header("Ground Trap Prefabs (4 prefabs)")]
+    // ── GROUND TRAPS
     public GameObject[] groundTrapPrefabs;
 
     [Header("Ground Trap Timing")]
@@ -27,10 +26,10 @@ public class TrapSpawner : MonoBehaviour
     public float groundMaxInterval = 4f;
 
     [Header("Ground Trap Spawn Position")]
-    public float groundY = -2.5f; // set this to your ground surface Y
+    public float groundY = -2.5f; 
     public float groundSpawnAheadDistance = 22f;
 
-    // ── PRIVATE ───────────────────────────────────────────────
+    
     [Header("General")]
     public float startDelay = 2f;
 
@@ -40,7 +39,7 @@ public class TrapSpawner : MonoBehaviour
     void Start()
     {
         _nextAirSpawnTime = Time.time + startDelay;
-        _nextGroundSpawnTime = Time.time + startDelay + 1f; // slight offset so they don't spawn at same time
+        _nextGroundSpawnTime = Time.time + startDelay + 1f; 
     }
 
     void Update()

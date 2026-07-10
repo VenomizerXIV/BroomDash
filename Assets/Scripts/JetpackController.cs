@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 public class JetpackController : MonoBehaviour
 {
     [Header("Jetpack")]
-    public float normalFlySpeed = 6f;   // rise speed with Space only
-    public float boostFlySpeed = 11f;  // rise speed with Space + Shift
+    public float normalFlySpeed = 6f;   
+    public float boostFlySpeed = 11f;  
 
     [Header("Fast Land")]
     public float fastLandForce = 20f;
