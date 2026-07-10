@@ -11,6 +11,6 @@ Inspired by Jetpack Joyride with custom mechanics.
 
 ## Setup Instructions
 1. Clone the repo
-2. Open in Unity 2023.x or later
+2. Open in Unity 6000.3.10f1 or later
 3. Open `Assets/Scenes/` and load the  scene
 4. Press Play
